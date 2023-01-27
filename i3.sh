@@ -14,6 +14,7 @@ polybar -c ${HOME}/.config/polybar/config.ini secondary-workspace 2>&1 | tee -a 
 polybar -c ${HOME}/.config/polybar/config.ini secondary-filesystem 2>&1 | tee -a /tmp/polybar-secondary-filesystem.log & disown
 polybar -c ${HOME}/.config/polybar/config.ini primary-workspace 2>&1 | tee -a /tmp/polybar-primary-workspace.log & disown
 polybar -c ${HOME}/.config/polybar/config.ini primary-monitor 2>&1 | tee -a /tmp/polybar-primary-monitor.log & disown
+polybar -c ${HOME}/.config/polybar/config.ini primary-spotify 2>&1 | tee -a /tmp/polybar-primary-spotify.log & disown
 polybar -c ${HOME}/.config/polybar/config.ini primary-clock 2>&1 | tee -a /tmp/polybar-primary-clock.log & disown
 polybar -c ${HOME}/.config/polybar/config.ini primary-tray 2>&1 | tee -a /tmp/polybar-primary-tray.log & disown
 #polybar bar2 2>&1 | tee -a /tmp/polybar2.log & disown
